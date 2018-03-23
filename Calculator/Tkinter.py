@@ -131,6 +131,14 @@ buttonSqrt = Button(top, text = "  √  ", command = TypeSqrt)
 buttonSqrt.place(x = 240, y = 285)
 
 
+def TypeFactorial():
+    addSymbol("fact(")
+
+buttonFactorial = Button(top, text = "  !  ", command = TypeFactorial)
+buttonFactorial.place(x = 240, y = 225)
+
+
+
 def TypeMultipy():
     addSymbol("*")
 

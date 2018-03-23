@@ -1,6 +1,4 @@
-from math import sqrt
-from math import factorial as fact
-from math import pow
+from math import sqrt, factorial as fact, pi as π, e, sin, cos, log as ln, log10 as log
 
 
 class CalcProcessor(object):
